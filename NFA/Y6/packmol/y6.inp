@@ -1,0 +1,16 @@
+#
+# Y6ethyls_pbe0-pvtz with sidechains added manually then passed through esp ff, the Y6_10 is taken from the last structure (10th snapshot)
+#
+
+output Y6_10_out.pdb
+
+filetype pdb
+
+tolerance 2
+
+nloop 200
+
+structure Y6_10.pdb
+ number 26
+ inside box 0 0 0 40 40 40 
+end structure
